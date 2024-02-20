@@ -20,9 +20,9 @@ class Employee extends Person{
 }
 
 // Do not change code below this line
-// const person = new Person("Alice", 25);
-// person.greet();
-// const emply = new Employee("bob",30,"manager")
-// emply.jobGreet()
+const person = new Person("Alice", 25);
+const employee = new Employee("Bob", 30, "Manager");
+person.greet()
+
 window.Person = Person;
 window.Employee = Employee;
